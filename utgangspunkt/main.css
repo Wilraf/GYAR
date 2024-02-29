@@ -1,0 +1,173 @@
+/* HEMSIDA UTSEENDE */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+
+    margin-top: 5%;
+    padding-top: 40px;
+
+    background-clip: padding-box
+}
+
+
+body {
+    background-color: rgb(239, 239, 239);
+
+
+    background-color: #EBEBEB;
+
+}
+
+
+header {
+    /* position: fixed; */
+
+    top: 0;
+    width: 100%;
+
+    background-color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 10px 3.6px;
+
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #8A00BE;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    padding: 5px;
+}
+
+
+/* MENYN */
+.menu ul {
+    margin-left: auto;
+    list-style-type: none;
+}
+.menu li {
+    font-family: 'Raleway', sans-serif;
+    display: inline;
+    margin: 20px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #8A00BE;
+}
+
+article {
+    background-color: white;
+    border-top-style: solid;
+    border-color: #8A00BE; 
+    border-width: 5px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 30px;
+}
+
+.articleimage {
+    width: 400px;
+    margin-top: 10px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 40px;
+    background-image: url(../images/footer2.png);
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    background-clip: padding-box;
+    background-color: #3D3D3D;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.asidetop {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+
+    background-color: #8A00BE;
+    color: white;
+
+    font-size: 30px;
+}
+
+aside {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+aside:nth-child(3) {
+    margin-top: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 90%;
+    border: 0;
+    border-top: 1px solid #3a3a3a;
+    margin: 1em 0;
+    padding: 0;
+}
